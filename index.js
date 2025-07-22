@@ -104,3 +104,19 @@ function countDigits(number) {
     return numString.length;
   }
   
+
+//5.Factorial of a Number
+// let no = 4;
+// let fact = 1;
+// for (let i = 1; i <= no; i++) {
+    // fact *= i;
+// }
+// console.log(fact);
+
+//6.Multiplication table
+// let num = 3;
+// for (let i = 1; i <= 10; i++) {
+    // console.log(`${num} x ${i} = ${num * i}`);
+// }
+
+// 7.Reverse a Number
