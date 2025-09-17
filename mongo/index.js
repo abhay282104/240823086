@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://abhisavaliya2004_db_user:abhi12@cluster0.eiewsia.mongodb.net/demo", {
+mongoose.connect("mongodb+srv://songrahardik082_db_user:Hardik123@cluster0.dfelcos.mongodb.net/example", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -15,16 +15,15 @@ const studentSchema = new mongoose.Schema({
 });
 
 const Student = mongoose.model("Student", studentSchema);
-
 console.log("MongoDB connected successfully");
 
 const student = new Student({
-  name: "Abhi Patel",
+  name: "hardik songra",
   department: "Computer Science",
-  startYear: 2020,
-  endYear: 2024,
-  enrollment: 240823086,
-  address: "marutichowk, rajkot",
+  startYear: 2024,
+  endYear: 2026,
+  enrollment: 123456,
+  address: "halvad",
 });
 
 student

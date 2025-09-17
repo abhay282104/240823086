@@ -62,61 +62,20 @@
 // }
 
 // 7.Reverse a Number
-
-// let a =12345;
-// let rev=0;
-// while(a>0)
-// {
-//     rev=rev*10 + a%10;
-//     a = Math.floor(a/10);
+// let num = 1234;
+// let reversed = 0;
+// while (num > 0) {
+    // reversed = reversed * 10 + num % 10;
+    // num = Math.floor(num / 10);
 // }
-// console.log(rev)
-
-// 8. Palindrome Check (Number)
-
-// function isPalindromeNumber(n) {
-//     const str = n.toString();
-//     const reversed = str.split('').reverse().join('');
-//     if (str === reversed) {
-//         return "Palindrome";
-//     } else {
-//         return "Not a Palindrome";
-//     }
-// }
+// console.log(reversed);
 
 
-// 9. Check Prime Number
+//8.Palindrome Check (Number)
 
-// function isPrime(n) {
-//     if (n <= 1) return "Not Prime";
-//     if (n === 2) return "Prime"; 
-//     if (n % 2 === 0) return "Not Prime";
 
-//     for (let i = 3; i <= Math.sqrt(n); i += 2) {
-//         if (n % i === 0) return "Not Prime";
-//     }
-//     return "Prime";
-// }
 
-// 10. Count Digits in a Number
-function countDigits(number) {
-    const numString = String(number);
-    return numString.length;
-  }
-  
 
-//5.Factorial of a Number
-// let no = 4;
-// let fact = 1;
-// for (let i = 1; i <= no; i++) {
-    // fact *= i;
-// }
-// console.log(fact);
 
-//6.Multiplication table
-// let num = 3;
-// for (let i = 1; i <= 10; i++) {
-    // console.log(`${num} x ${i} = ${num * i}`);
-// }
 
-// 7.Reverse a Number
+
